@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+  
+    span{
+      @include font(3rem);
+    }
+  
+    h3{
+      font-size: 3rem;
+      color:$black;
+    }
+  }

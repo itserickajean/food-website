@@ -1,0 +1,63 @@
+.popular .box-container{
+  @include grid(25rem);
+
+  .box{
+    border-radius: .5rem;
+    position: relative;
+    background: $light-bg;
+    padding:2rem;
+    text-align: center;
+
+    .fa-heart{
+      position: absolute;
+      top:1.5rem; right:1.5rem;
+      font-size: 2.5rem;
+      color:$light-color;
+      cursor: pointer;
+
+      &:hover{
+        color:$green;
+      }
+    }
+
+    .image{
+      margin:1rem 0;
+
+      img{
+        height: 15rem;
+      }
+    }
+    
+    .content{
+
+      h3{
+        font-size: 2rem;
+        color:$black;
+      }
+
+      .stars{
+        padding:1rem 0;
+        font-size: 1.7rem;
+
+        i{
+          color:gold;
+        }
+
+        span{
+          color:$light-color;
+        }
+      }
+      
+      .price{
+        font-size: 2rem;
+        color:$black;
+
+        span{
+          font-size: 1.5rem;
+          color:$light-color;
+          text-decoration: line-through;
+        }
+      }
+    }
+  }
+}
