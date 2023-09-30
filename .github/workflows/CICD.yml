@@ -46,7 +46,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: Production
-      url: 'http://erickaskitchen.com'
+      url: 'https://itserickajean.github.io/food-website/'
     steps:
       - name: Deploy
         run: echo I am deploying! 
